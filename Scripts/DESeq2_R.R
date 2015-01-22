@@ -36,4 +36,6 @@ points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="blue")
 #abline(h=c(-1,1), col="red")
 
 #create a table with results
-write.table(tmp.sig, "/Users/Diego/desktop/Austral/DESeq/Phel_DEGlist.tab", row.names = T)
+write.table(tmp.sig, "/Users/Diego/Desktop/ASI/Output/Cgigas_DEG.txt", row.names = T)
+
+#sed 's/"text_you_want_replaced"//g' path/to/source_file > path/to/destination_file
